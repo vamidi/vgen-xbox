@@ -1,6 +1,6 @@
 const elevate = require("windows-elevate");
 const ffi = require('ffi-napi');
-const ref = require("ref");
+const ref = require("ref-napi");
 const assert = require("assert");
 
 const Buttons = {
