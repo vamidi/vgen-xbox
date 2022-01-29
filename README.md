@@ -3,7 +3,7 @@ Node wrapper for vGenInterface (xbox) to feed xinput events to Windows
 
 # Example
 ```js
-const VGen = require("vgen-xbox")
+const VGen = require("@vamidicreations/vgen-xbox");
 const vgen = new VGen();
 
 var controllerId = vgen.pluginNext() // Plugs in next available controller
