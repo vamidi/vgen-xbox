@@ -1,5 +1,5 @@
 const elevate = require("windows-elevate");
-const ffi = require("ffi");
+const ffi = require('ffi-napi');
 const ref = require("ref");
 const assert = require("assert");
 
